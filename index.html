@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--typical title for a make beleive bike company-->
     <title>Jim Bob's Bikes</title>
-    
+    <link rel="stylesheet" href="css/JBs.css" type="text/css">
+       
 </head>
 <body>
     <header>
@@ -22,10 +23,12 @@
     </header>
         <main>
             <!--by using a span tag i can make things that are usually block "inline" since i am not using css.-->
-            <h4>Do you really want to buy a bike from us? Proceed with caution!<span><img src="assets/caution.jpg" width="25px"></span></h4>
+            <p class="standardCopy">Do you really want to buy a bike from us? Proceed with caution!<span><img src="assets/caution.jpg" width="25px"></span></p>
             <!-- The image/logo for this site was done with a width of 75%. This will make it responsive. I used the alt for purposes of SEO and handicap readers-->
-            <img src="assets/bikeLogo.jpg" width="75%" alt="Picture of bikes"/>
+            <img id="logo" src="assets/bikeLogo.jpg" width="75%" alt="Picture of bikes"/>
         </main>
+
+        <p id="copyright">Jim Bob's New and Used Bikes Copyright 2023</p>
    
     
 </body>
