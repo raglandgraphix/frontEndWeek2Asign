@@ -21,6 +21,8 @@ nav {
     
 }
 nav a{
+    /* I added a fallback of arial. If someones pc doesn't have fantasy, they have a good chance of having arial*/
+    font-family: fantasy,arial;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -50,4 +52,49 @@ main{
     box-shadow: 5px 5px 3px;
     color: black;
     width: 250px;
+}
+th{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+#pricingGuide{
+    border: thin solid grey;
+}
+#pricingGuide th, td{
+    border: thin solid grey;
+}
+
+#pricingGuide img{
+    width:150px;
+    border: solid medium black;
+    box-shadow: 2px 2px 5px;
+}
+.cost{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.description{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+}
+#theBikes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contactUs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+.callOut{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputInfo{
+    background-color: lightgray;
+}
+form h4,p{
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-submit-button{
+    box-shadow: 2px 2px 3px;
 }

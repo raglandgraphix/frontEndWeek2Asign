@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--typical title for a make beleive bike company-->
         <title>Jim Bob's Bikes</title>
+        <!-- the stylesheet below styles all the pages-->
         <link rel="stylesheet" href="css/JBs.css" type="text/css">
         
     </head>
@@ -22,9 +23,9 @@
             </nav>
         </header>
         <main>
-            <h2>THE BIKES!!!!</h2>
+            <h2 id="theBikes">THE BIKES!!!!</h2>
             <!-- the table below would be much cooler if we could use CSS, but since we haven't covered it yet i will leave it off-->
-            <table>
+            <table id="pricingGuide">
                 <!-- the Header of course-->
                 <tr>
                     <th>Bike</th>
@@ -33,19 +34,19 @@
                 </tr>
                 <!-- and the table-->
                 <tr>
-                    <td><img src="assets/crapper.jpeg" width="100px" alt="Picture of bikes"/></td>
-                    <td>$1,000</td>
-                    <td>This bike isn't as bad as it smells.</td>
+                    <td><img src="assets/crapper.jpeg"  alt="Picture of crappy bikes"/></td>
+                    <td class="cost">$1,000</td>
+                    <td class="description">This bike isn't as bad as it smells.</td>
                 </tr>
                 <tr>
-                    <td><img src="assets/yikeBike.jpg" width="100px" alt="Picture of bikes"/></td>
-                    <td>$5,000</td>
-                    <td>Nothing needs to be said about this beast.</td>
+                    <td><img src="assets/yikeBike.jpg"  alt="Picture of bikes"/></td>
+                    <td class="cost">$5,000</td>
+                    <td class="description">Nothing needs to be said about this beast.</td>
                 </tr>
                 <tr>
-                    <td><img src="assets/wellCrap.jpg" width="100px" alt="Picture of bikes"/></td>
-                    <td>$1</td>
-                    <td>We paid a lot for this bike, but bad things happen.</td>
+                    <td><img src="assets/wellCrap.jpg"  alt="Picture of bikes"/></td>
+                    <td class="cost">$1</td>
+                    <td class="description">We paid a lot for this bike, but bad things happen.</td>
                 </tr>
             </table>
             
